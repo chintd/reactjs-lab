@@ -1,0 +1,14 @@
+.select-container{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    color: white;
+    text-align: left;
+}
+.select-container>select{
+    margin-right: 10px;
+    height: 40px;
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+}

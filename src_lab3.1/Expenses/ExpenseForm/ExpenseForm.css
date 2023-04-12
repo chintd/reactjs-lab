@@ -1,0 +1,36 @@
+form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    height: 200px;
+    background-color: rgb(175, 130, 214);
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 20px;
+    font-weight: 600;
+}
+.btn{
+   
+    text-align: right;
+    grid-area: 3/1/4/3;
+}
+button{
+    color:white;
+    background-color: rgb(64, 5, 119);
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    
+
+}
+input{
+    width: 95%;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+}
+button:hover{
+    background-color:  rgb(64, 5, 119, 0.5);
+    color:rgb(64, 5, 119)
+}

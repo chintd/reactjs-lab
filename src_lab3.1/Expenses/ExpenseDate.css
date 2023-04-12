@@ -1,0 +1,11 @@
+.expense-date{
+    color: white;
+    text-align: center;
+    display: block;
+    border: 1px solid white;
+    background-color: rgb(59, 59, 59);
+    border-radius: 10px;
+    width: 150px;
+    height: auto;
+    line-height: 0.5;
+}
