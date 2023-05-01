@@ -1,0 +1,19 @@
+.container{
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px auto;
+}
+li{
+    width: 99%;
+    border: 1px solid grey;
+    padding: 5px;
+    list-style: none;
+    margin: 5px 0;
+}
+ul{
+    margin: 0; 
+    padding: 5px;
+}

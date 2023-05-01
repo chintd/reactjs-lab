@@ -1,0 +1,22 @@
+.form{
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px auto;
+}
+.form-control, .form-control label, .form-control input, .form-btn{
+    width: 99%;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+button{
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+button:focus{
+    background-color: blueviolet;
+}
