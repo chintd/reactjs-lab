@@ -1,0 +1,16 @@
+button{
+    color: white;
+    background-color: purple;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    border: 0.5px solid grey;
+    font-size: 16px;
+    font-weight: 600px;
+}
+button:focus{
+    color: purple;
+    background-color: white;
+    border-color: purple;
+}

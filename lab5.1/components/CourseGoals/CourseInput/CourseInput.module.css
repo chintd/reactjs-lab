@@ -1,0 +1,29 @@
+form{
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.form-control label{
+    font-weight: 600;
+    font-size: 30px;
+}
+.form-control input{
+    width: 90%;
+    height: 25px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.form-control.invalid label{
+    color: red;
+    width: 100%;
+}
+.form-control.invalid input{
+    border-color: red;
+    background-color: salmon;
+}
